@@ -1,0 +1,1 @@
+Los servicios se encargan de las peticiones de datos externas y gestionar los datos con los que vamos a interactuar.

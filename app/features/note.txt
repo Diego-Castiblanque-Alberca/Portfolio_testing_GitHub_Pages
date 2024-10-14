@@ -1,0 +1,2 @@
+Modulo con una funcionalidad independiente que a su vez forma parte de una página. Este módulo puede agrupar diferentes 
+componentes, directivas, servicios, etc.

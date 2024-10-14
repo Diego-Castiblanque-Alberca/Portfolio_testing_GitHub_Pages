@@ -1,0 +1,1 @@
+En este directorio definimos los modelos de datos. Mediante interfaces. Esto no servirá para poder tipar las variables.

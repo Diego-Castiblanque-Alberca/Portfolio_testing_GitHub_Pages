@@ -1,0 +1,39 @@
+@use '../../../styles/variables.scss' as *;
+.bouncing-icons-container{
+    display: none;
+}
+.bouncing-icon-container{
+    display: none;
+}
+@media screen and (min-width: 992px) {
+    .bouncing-icons-container{
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    .bouncing-icon-container{
+        display: block;
+        border-radius: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px;
+        border: 0.6px solid black;
+        background-color: $color-routerLinks;
+    }
+    .bouncing-icon-subcontainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: inherit;
+        background-color: $color-background2;
+        padding: 8px;
+    }
+    .bouncing-icon{
+        // use clamp to make the icon size responsive
+        width: 35px;
+    }
+
+}

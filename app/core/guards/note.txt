@@ -1,0 +1,12 @@
+Usos de los guards en Angular:
+
+- Control de Acceso: Los guards pueden determinar si un usuario tiene permiso para acceder a una ruta específica basándose en condiciones como estar autenticado o tener ciertos roles o permisos.
+
+- Prevención de Pérdidas de Datos: Mediante el uso de guards, se puede prevenir que el usuario navegue fuera de una ruta (por ejemplo, un formulario con cambios sin guardar) sin realizar una acción específica, como guardar los cambios o confirmar la salida.
+
+- Carga Perezosa de Módulos: Los guards pueden controlar la carga perezosa de módulos, asegurando que ciertos módulos solo se carguen bajo condiciones específicas, lo que puede mejorar la eficiencia de la aplicación.
+
+- Redirecciones y Manejo de Navegación: Los guards pueden ser utilizados para redirigir a los usuarios a diferentes rutas basándose en la lógica de negocio, como redirigir a un usuario no autenticado a una página de inicio de sesión.
+
+Los guards se implementan como servicios que implementan una o mas interfaces como CanActivate, CanActivateChild, CanDeactivate o CanLoad.
+
