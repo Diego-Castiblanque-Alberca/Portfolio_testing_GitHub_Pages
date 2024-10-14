@@ -1,1 +1,0 @@
-Elementos globales de la aplicación que no generan interfaz gráfica.

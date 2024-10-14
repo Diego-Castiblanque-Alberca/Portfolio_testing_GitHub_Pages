@@ -1,1 +1,0 @@
-Conjunto de modulos funcionales o componentes que forman una página o vista.

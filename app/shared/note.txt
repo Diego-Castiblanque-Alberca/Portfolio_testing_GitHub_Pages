@@ -1,2 +1,0 @@
-Elementos de interfaz gráfica comunes en la aplicación. Como directivas personalizadas, 
-pipes para dar formato y componentes (botones, listas, nav-bar, etc).
